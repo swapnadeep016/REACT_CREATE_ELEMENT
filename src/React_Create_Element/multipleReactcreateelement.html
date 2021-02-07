@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width, initial-scale=1.0">
+     <title>Document</title>
+     <script src="https://unpkg.com/react@16.14.0/umd/react.development.js" crossorigin></script>
+     <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+   <div id="root"></div>
+   <script type="text/javascript">
+   
+   const x = React.createElement(
+       "div",
+       {classname: "shopping-list"},
+       React.createElement(
+           "h1",
+           null,
+           "Shopping List for"),
+       React.createElement(
+           "ul",
+           null,
+           React.createElement("li", null, "Instagram"),
+           React.createElement("li", null, "WhatsApp"),
+           React.createElement("li", null, "Oculus"),
+       ),    
+   );
+   
+   ReactDOM.render(x,document.getElementById('root'));
+   </script>
+
+</body>
+</html> 

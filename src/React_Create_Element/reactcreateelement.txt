@@ -1,0 +1,18 @@
+React.createElement(type, props, children) method takes the three arguments  type, props, children:
+Create and return a new React element of the given type.
+
+
+The type argument can be either a HTML tag name string (such as 'div' or 'span') or
+a React component type (a class or a function)
+
+
+props: The properties object (example: {style: {color: "red"}} or className or event handlers etc).
+children: anything you need to pass between the dom elements.
+
+
+
+what is Transpiler ?
+
+Transpilers, or source-to-source compilers, are tools that read source code written in one programming language, and produce the equivalent code
+
+One of the most famous transpiler in the javascript world is Babel. One of the most use cases for Babel is to transpile jsx from React.js and es6
